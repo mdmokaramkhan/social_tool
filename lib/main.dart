@@ -9,7 +9,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -76,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     radius: 22,
                   ),
                   onTap: () {
-                    // Provider.of<ThemeModel>(context, listen: false).toggleTheme();
+                    
                     Navigator.of(context).push(
                       MaterialPageRoute(
                         builder: (context) => const MyProfile(),
